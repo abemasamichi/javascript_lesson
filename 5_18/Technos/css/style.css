@@ -1,0 +1,37 @@
+@charset "UTF-8";
+body {
+    line-height: 2;
+    background: url(../images/ba.png);
+}
+
+main {
+    width: 960px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+h1{ 
+    font-size: 25px;
+    width: 300px;
+    padding: 10px;
+    border: 10px  double white;
+    margin: 10px;
+    background:#66CCFF;
+    list-style: none;
+    color:white;
+    text-shadow: 5px 5px 10px #0ff;
+    background: rgba(0,0,255,0.5)
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+hr{
+    color: black
+}
+
+nav {
+    box-shadow: 5px 5px 10px #0ff;
+}
+
