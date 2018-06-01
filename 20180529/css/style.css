@@ -1,0 +1,112 @@
+@charaset "UTF-8";
+body {
+    line-height: 2;
+    background-image: url(images/背景.jpg)
+}
+
+/*リンク擬似クラスの設定*/
+
+nav a:link {
+    color: #000;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+    align-content: ;
+    kground: pink;
+}
+
+nav ul li a {
+    height: 50px;
+    display: block;
+}
+
+li {
+    list-style: none;
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    height: 90px;
+    background: #FFD5EC;
+    color: #333333;
+    padding: 15px;
+    position: relative;
+}
+
+header h1 {
+    font-size: 40px;
+    text-shadow: 2px 2px 10px #000;
+    color: pink;
+    text-shadow: 3px -2px 3px #808080;
+}
+
+nav ul li {
+    float: left;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background: #FF82B2;
+    line-height: 50px;
+}
+
+nav ul li:nth-child(odd) {
+    background: #FF1A6F;
+}
+
+article {
+    font-size: 10px;
+    width: 500px;
+    float: right;
+    color: saddlebrown;
+    background: white;
+}
+
+aside {
+    width: 200px;
+    float: right;
+}
+
+footer {
+    clear: both;
+    height: 100px;
+    background: #333;
+    color: #000;
+    padding: 20px;
+    text-align: right;
+}
+
+#snsbox {
+    width: 60px;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    text-align: right;
+}
+
+#sns1,
+#sns2 {
+    width: 30px;
+    height: 30px;
+    float: left;
+    text-align: center;
+}
+
+#sns1 {
+    background: white;
+}
+
+#sns2 {
+    background: yellow;
+}
