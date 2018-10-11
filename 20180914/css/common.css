@@ -1,0 +1,33 @@
+html {
+    height: 3000px;
+}
+
+div.example {
+    /* 親ボックス */
+    width: 450px;
+    height: 200px;
+    background-color: #85b9e9;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+div.box1 {
+    /* ボックス1 */
+    width: 150px;
+    height: 50px;
+    background-color: #ffd78c;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+div.box2 {
+    /* ボックス2 */
+    width: 150px;
+    height: 50px;
+    background-color: #bde9ba;
+    position: absolute;
+    top: 50px;
+    left: 250px;
+}
